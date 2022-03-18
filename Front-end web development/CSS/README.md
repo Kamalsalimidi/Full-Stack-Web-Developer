@@ -103,7 +103,7 @@ h1.center {
 
 **CSS Comments**
 
-``
+```
 /* This is
 a multi-line
 comment */
@@ -111,9 +111,10 @@ comment */
 
 **CSS Styles** - 
 
+
 - Text 
 
-  `color:MediumSeaGreen`
+  `color:MediumSeaGreen`    (RGB, HEX, HSL)
 
 - Background  
 
@@ -122,13 +123,6 @@ comment */
   i.e can be used in single line follows same order as in above sequence 
 
       example : `background: #ffffff url("img_tree.png") no-repeat right top`
-
-** Different assign values can be used colour's **
-
-- colour 
-- RGB
-- HEX
-- HSL
 
 - Borders 
 
