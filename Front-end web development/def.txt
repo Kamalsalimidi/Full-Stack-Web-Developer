@@ -1,0 +1,6 @@
+The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
+
+You should include the following <meta> element in all your web pages:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+This gives the browser instructions on how to control the page's dimensions and scaling.
