@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<!-- The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+HTML metadata is data about the HTML document. Metadata is not displayed.
+Metadata typically define the document title, character set, styles, scripts, and other meta information. -->
+<head>
+  <title>A Meaningful Page Title <span style="color:blue;font-weight:bold">displayed in the browser tab, in favorites and in search-engine results</span></title>
+  <style>
+    body {background-color: powderblue;}
+    h1 {color: red;}
+    p {color: blue;}
+  </style>
+  <link rel="stylesheet" href="mystyle.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <!-- viewport Responsive web design is about creating web pages that look good on all devices! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+  </script>
+  <base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+
+<!-- Every HTML element has a default display value, depending on what type of element it is.
+There are two display values: block and inline. -->
+
+<!-- The <div> element is often used as a container for other HTML elements. -->
+<div style="border: 1px solid black">Hello World</div>
+<p>The DIV element is a block element, and will always start on a new line and take up the full width available (stretches out to the left and right as far as it can).</p>
+
+<!-- The <span> element is an inline container used to mark up a part of a text, or a part of a document. -->
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+<code>
+    x = 5;
+    y = 6;
+    z = x + y;
+</code>
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+<p>Message from my computer:</p>
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+</body>
+</html>

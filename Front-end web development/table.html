@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  /* border-radius: 10px; */
+  border-collapse: collapse;
+  text-align: left;
+  /* padding: 15px; */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  /* border-spacing: 30px; */
+}
+/* table {
+  border-spacing: 30px;
+} */
+tr:hover {background-color: #D6EEEE;}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Rounded Borders</h2>
+
+<p>Use the CSS border-radius property to add rounded corners to the table cells.</p>
+
+<table style="width:100%">
+  <colgroup>
+      <col span="1">
+      <col span="3" style="background-color: pink">
+      <!-- style="visibility: collapse" -->
+  </colgroup>
+  <tr>
+    <th style="width:70%" colspan="2" >Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Firstname</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th >email</th>
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
