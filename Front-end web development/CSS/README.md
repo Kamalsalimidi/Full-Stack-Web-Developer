@@ -112,26 +112,56 @@ comment */
 **CSS Styles** - 
 
 
-- Text 
+- Colour 
 
-  `color:MediumSeaGreen`    (RGB, HEX, HSL)
+  `colour, RGB, HEX, HSL`
 
 - Background  
 
   `background-color: Blue; background-image: url("paper.gif"); background-repeat: repeat/no-repeat; background-attachment: fixed/scroll; background-     position: right top`
 
-  i.e can be used in single line follows same order as in above sequence 
+  i.e can be used in single line, follows same order as in above sequence 
 
-      example : `background: #ffffff url("img_tree.png") no-repeat right top`
+      `background: #ffffff url("img_tree.png") no-repeat right top`
 
 - Borders 
 
   `border-width: 5px; border-style: solid; border-color: red`
 
-   i.e can be used in single line follows same order as in above sequence 
+   i.e can be used in single line, follows same order as in above sequence 
 
-        example : border: 5px solid red
+        `border: 5px solid red`
 
-        border-top-style,border-right-style,border-bottom-style,border-left-style i.e `border-style: dotted solid double dashed`
+         border-top-style,border-right-style,border-bottom-style,border-left-style i.e `border-style: dotted solid double dashed`
 
   `border-radius: 5px` - property is used to add rounded borders to an element
+
+- Margins - Outside of any defined borders.
+
+  `margin-top: 100px; margin-right: 100px; margin-bottom: 100px; margin-left: 100px`
+
+  i.e can be used in single line, follows same order as in above sequence 
+
+        `margin: 25px 50px 75px 100px`
+
+- Padding - Inside of any defined borders
+  
+  `padding-top: 100px; padding-right: 100px; padding-bottom: 100px; padding-left: 100px`
+
+  i.e can be used in single line, follows same order as in above sequence 
+
+        `padding: 25px 50px 75px 100px`
+
+- Height/Width
+
+  `height: 200px; width: 50%; max-width: 500px`
+
+- Outline - OUTSIDE the borders
+
+  `outline-width: solid; outline-style: red; outline-color: 20px`
+
+   i.e can be used in single line, follows same order as in above sequence 
+
+        `outline: 25px 50px 75px`
+
+   `outline-offset: 70px` - property adds space between an outline and the edge/border of an element.
