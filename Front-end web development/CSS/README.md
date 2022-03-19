@@ -124,13 +124,17 @@ comment */
 
       `background: #ffffff url("img_tree.png") no-repeat right top`
 
+- text
+
+  `color: blue; text-align: center/justify/others; text-align-last: right; vertical-align: text-bottom; text-decoration-line: ~overline~;`
+
 - Borders 
 
   `border-width: 5px; border-style: solid; border-color: red`
 
    i.e can be used in single line, follows same order as in above sequence 
 
-        `border: 5px solid red`
+         border: 5px solid red
 
          border-top-style,border-right-style,border-bottom-style,border-left-style i.e `border-style: dotted solid double dashed`
 
@@ -142,7 +146,7 @@ comment */
 
   i.e can be used in single line, follows same order as in above sequence 
 
-        `margin: 25px 50px 75px 100px`
+        margin: 25px 50px 75px 100px
 
 - Padding - Inside of any defined borders
   
@@ -150,7 +154,7 @@ comment */
 
   i.e can be used in single line, follows same order as in above sequence 
 
-        `padding: 25px 50px 75px 100px`
+        padding: 25px 50px 75px 100px
 
 - Height/Width
 
@@ -162,6 +166,6 @@ comment */
 
    i.e can be used in single line, follows same order as in above sequence 
 
-        `outline: 25px 50px 75px`
+        outline: 25px 50px 75px
 
    `outline-offset: 70px` - property adds space between an outline and the edge/border of an element.
