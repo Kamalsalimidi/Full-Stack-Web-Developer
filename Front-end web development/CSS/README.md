@@ -126,7 +126,7 @@ comment */
 
 - text
 
-  `color: blue; text-align: center/justify/others; text-align-last: right; vertical-align: text-bottom; text-decoration-line: ~overline~;`
+  `color: blue; text-align: center/justify/others; text-align-last: right; vertical-align: text-bottom; text-decoration-line: ~overline~; text-decoration-color: blue; text-transform: uppercase; text-indent: 50px; letter-spacing: 5px; line-height: 0.8; word-spacing: 10px; white-space: nowrap; text-shadow: 2px 2px;`
 
 - Borders 
 
@@ -169,3 +169,99 @@ comment */
         outline: 25px 50px 75px
 
    `outline-offset: 70px` - property adds space between an outline and the edge/border of an element.
+
+- Fonts
+
+  `font-style: italic/normal/oblique; font-variant: small-caps; font-weight: bold; font-size: 30px; font-family: "Lucida Console", "Courier New", monospace`
+
+  i.e can be used in single line, follows same order as in above sequence 
+
+        font: italic small-caps bold 12px/30px Georgia, serif
+
+  ```
+  <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <style>
+  body {
+    font-family: "Audiowide", sans-serif;
+  }
+  </style>
+  </head>
+  ```
+
+- Icons
+
+  ```
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+  
+  <i class="material-icons">cloud</i>
+  <i class="material-icons">favorite</i>
+  <i class="material-icons">attachment</i>
+  <i class="material-icons">computer</i>
+  <i class="material-icons">traffic</i>
+  
+  </body>
+  </html>
+  ```
+
+- Link
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  /* unvisited link */
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Styling a link depending on state</h2>
+  
+  <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+  <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+  <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+  
+  </body>
+  </html>
+  ```
+
+- list
+  
+  `list-style-type: square; list-style-position: inside; list-style-image`
+
+   - Responsive 
+
+      ```
+      <div style="overflow-x:auto;">
+
+      <table>
+      ... table content ...
+      </table>
+      
+      </div>
+      ```
+
+- Display
