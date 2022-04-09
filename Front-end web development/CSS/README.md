@@ -303,3 +303,18 @@ comment */
       ```
 
 - Display
+  
+  `display: inline; display: block;`
+
+  ```
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  li {
+    display: inline;
+  }
+  </style>
+  </head>
+  <body>
+  ```
