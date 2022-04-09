@@ -318,3 +318,12 @@ comment */
   </head>
   <body>
   ```
+- position
+  
+  `position: relative; left: 30px; border: 3px solid #73AD21;`
+
+- z-index
+  
+  `z-index: number;`
+  The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+  
