@@ -32,3 +32,15 @@ function myFunction(p1, p2) {
 }
 
 myFuntion(1,2)
+
+# callbacks
+
+function myFunction(p1, p2,fnToCall) {
+  return p1 * p2;
+}
+
+function test(){
+  return true;
+}
+
+myFuntion(1,2,test)
