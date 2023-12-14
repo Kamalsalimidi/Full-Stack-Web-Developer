@@ -22,7 +22,7 @@ for (let i=0; i <= first_name.length; i++){
 onj = [{name:"kamal", age: 24}
 
 arr_of_obj = [{name:"kamal", age: 24},{name:"data",age:24}]
-console.log(x[0][name])
+console.log(x[0]["name"])
 
 # Function
 
