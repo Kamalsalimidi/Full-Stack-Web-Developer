@@ -15,4 +15,5 @@ sync means sequential
 async means parallel
   * contact switching (switch to another task)
   * delegate (say someone to do this)
+
  setTimeout, fs.readFile, Fetch
